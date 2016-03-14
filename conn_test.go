@@ -257,7 +257,7 @@ func TestExec(t *testing.T) {
 	}
 }
 
-func TestStatment(t *testing.T) {
+func TestStatement(t *testing.T) {
 	db := openTestConn(t)
 	defer db.Close()
 
